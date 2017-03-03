@@ -31,11 +31,11 @@ With this knowledge, follow the instructions below to complete the exercise.-->
 
 - Tee läbi Näited 1 kuni 4, ühe rea täitmiseks R script-is vajuta `Ctrl + Enter`.
 - Pane tähele, et sümbol  `#` on kasutatud kommentaaride ridade eristamiseks.
-- Kirjuta Näites 5 tehe, mis leiaks $$5^2 + \frac{3}{(4+5)}$$ ja vajuta 'Submit Answer'.
+- Kirjuta Ülesandesse tehe, mis leiaks $$5^2 + \frac{27}{(4+5)}$$ ja vajuta 'Submit Answer'.
 
 *** =hint
 
-Vihjeks nii palju, et ....
+Kui sul tekkisid probleemid märgi `^` leidmisega, siis kasuta selle asemel `**`. Pane tähele, et tehte kirjapanekul on oluline jälgida tehete järjekorda.
 
 *** =pre_exercise_code
 ```{r}
@@ -44,23 +44,44 @@ Vihjeks nii palju, et ....
 
 *** =sample_code
 ```{r}
-# Calculate 3 + 4
+# Näide 1. Liitmine. 
 3 + 4
 
-# Calculate 6 + 12
+# Näide 2. Jagamine.
+8 / 2
+
+# Näide 3. Funktsiooni kasutamine.
+sin(2*pi)
+
+# Näide 4. Pikem avaldis.
+7 * (8 + 9) - 10 / 5
+
+#Ülesanne
+
+
 ```
 
 *** =solution
 ```{r}
-# Calculate 3 + 4
+# Näide 1. Liitmine. 
 3 + 4
 
-# Calculate 6 + 12
-6 + 12
+# Näide 2. Jagamine.
+8 / 2
+
+# Näide 3. Funktsiooni kasutamine.
+sin(2*pi)
+
+# Näide 4. Pikem avaldis.
+7 * (8 + 9) - 10 / 5
+
+#Ülesanne
+5^2 + 27 / (4 + 5)
+
 ```
 
 *** =sct
 ```{r}
-test_output_contains("18", incorrect_msg = "Make sure to add `6 + 12` on a new line. Do not start the line with a `#`, otherwise your R code is not executed!")
-success_msg("Awesome! See how the console shows the result of the R code you submitted? Now that you're familiar with the interface, let's get down to R business!")
+test_output_contains("5^2 + 27 / (4 + 5)", incorrect_msg = "Avaldises on viga. Veendu, et sisestasid nimetaja kujul `(4 + 5)`.")
+success_msg("Tubli! Suundu järgmise ülesande juurde.")
 ```
