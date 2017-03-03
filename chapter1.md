@@ -84,6 +84,5 @@ sin(2*pi)
 ```{r}
 test_output_contains("5^2 + 27 / (4 + 5)", incorrect_msg = "Viga1")
 test_output_contains("5^2 + 27 / (4 + 5)%%28", incorrect_msg = "Viga2")
-test_student_typed("5^2 + 27 / (4 + 5)", fixed=TRUE, not_typed_msg = "Avaldises on viga. Veendu, et sisestasid nimetaja kujul `(4 + 5)`.")
 success_msg("Tubli! Suundu järgmise ülesande juurde.")
 ```
