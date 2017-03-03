@@ -27,7 +27,7 @@ ja paar funktsiooni:
 The modulo returns the remainder of the division of the number to the left by the number on its right, for example 5 modulo 3 or 5 %% 3 is 2.
 With this knowledge, follow the instructions below to complete the exercise.-->
 
-*** =Juhised
+*** =instructions
 
 - Tee läbi Näited 1 kuni 4, ühe rea täitmiseks R script-is vajuta `Ctrl + Enter`.
 - Pane tähele, et sümbol  `#` on kasutatud kommentaaride ridade eristamiseks.
@@ -87,4 +87,68 @@ success_msg("Tubli! Suundu järgmise ülesande juurde.")
 ```
 
 <--! Järmine harjutus-->
+
+
+--- type:NormalExercise lang:r xp:100 skills:1 key:3b528fab71
+## Muutujad
+
+Ka kalkulaatorit kasutades tekib peatselt vajadus meeles pidada arvutuste tulemusi. R-is võivad muutujate nimed sisaldada suuri ja väikesi tähti, numbreid; punkti ja alakriipsu. Erandiks on see, et nimi ei või alata numbri või alakriipsuga. Näiteks saab omistada `x`-le väärtuse 3 järgmiselt: `x <- 3`. 
+
+
+*** =instructions
+
+- Proovi läbi näitekood.
+- Ülesanne: omista muutujale `z` summa, mille liidetavad on `y` ja 5. Väljasta `z` väärtus ekraanile.
+
+*** =hint
+
+*** =pre_exercise_code
+```{r}
+
+```
+
+*** =sample_code
+```{r}
+# Näide 1. Omistame muutjale y väärtuse 2 ja väljstame väärtuse
+y <- 2
+y
+
+# Näide 2. Kasutame muutujat y arvutuses
+y + 5
+
+# Ülesanne
+
+```
+
+*** =solution
+```{r}
+# Näide 1. Omistame muutjale y väärtuse 2 ja väljstame väärtuse
+y <- 2
+y
+
+# Näide 2. Kasutame muutujat y arvutuses
+y + 5
+
+# Ülesanne
+z <- y + 5
+z
+```
+
+*** =sct
+```{r}
+test_error()
+
+test_object("z", incorrect_msg = "z väärus pole õige. ")
+
+
+success_msg("Perfect! Now you should have a good feel about the data and the idea behind life tables.")
+
+```
+
+
+
+
+
+
+
 
