@@ -138,7 +138,7 @@ z
 ```{r}
 test_error()
 
-test_object("z", incorrect_msg = "z väärus pole õige. ")
+test_object("z", incorrect_msg = "muutujat z väärus pole õige. ")
 
 
 success_msg("Perfect! Now you should have a good feel about the data and the idea behind life tables.")
