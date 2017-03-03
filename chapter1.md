@@ -9,7 +9,7 @@ description : Siin saab tutvuda tarkvaraga R ja teha esimesi samme programmeerim
 
 R-i võib kasutada kui kalkulaatorit. Toome ära mõned tehtemärgid:
 
-- Liitmine: +
+- Liitmine: `+`
 
 
 
