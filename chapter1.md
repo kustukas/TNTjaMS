@@ -209,14 +209,10 @@ success_msg("Great job!")
 
     *** =sct
     ```{r}
-test_correct({
-  test_object("z")
-}, {
-  test_function("+")
-})
-
-test_output_contains("z")
-test_error()
-success_msg("Great job!")
+    test_function("mean", args = "x")
+    test_object("m")
+    test_output_contains("m")
+    test_error()
+    success_msg("Great job!")
     ```
     
