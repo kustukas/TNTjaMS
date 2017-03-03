@@ -76,14 +76,12 @@ sin(2*pi)
 7 * (8 + 9) - 10 / 5
 
 #Ülesanne
-mean(3:10)
+5^2 + 27 / (4 + 5)
 
 ```
 
 *** =sct
 ```{r}
-ex() %>%
-  check_function("mean", not_called_msg = "Make sure to call `mean()`") %>%
-  check_arg("x", arg_not_specified_msg = "Have you specified the argument `x`"?) %>%
-  check_equal(incorrect_msg = "Have you correctly specified the argument `x`?")
+test_output_contains("5^2 + 27 / (4 + 5)", incorrect_msg = "Viga1")
+success_msg("Tubli! Suundu järgmise ülesande juurde.")
 ```
