@@ -136,11 +136,15 @@ z
 
 *** =sct
 ```{r}
-test_error()
-test_function_result("<-", "Kas kasutasid omistamise operaatorit `<-`?)
-test_object("z", incorrect_msg = "muutuja z väärtus pole õige. Proovi uuesti")
+test_correct({
+  test_object("z")
+}, {
+  test_function("+")
+})
 
-success_msg("Perfect! Now you should have a good feel about the data and the idea behind life tables.")
+test_output_contains("z")
+test_error()
+success_msg("Great job!")
 
 ```
 
