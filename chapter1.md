@@ -5,9 +5,27 @@ description : Siin saab tutvuda tarkvaraga R ja teha esimesi samme programmeerim
 
 
 --- type:NormalExercise lang:r xp:100 skills:1 key:ca824b1118
-## Minu esimene Hello Word!
+## R kui kalkulaator
 
-Siia üldisemad juhised, mida tuleb teha.
+R-i võib kasutada kui kalkulaatorit. Toome ära mõned tehtemärgid:
+
+Liitmine: +
+Lahutamine: -
+Korrutamine: *
+Jagamine: /
+Astendamine: ^ või **
+Jääk jagamisel: %%
+
+ja paar funktsiooni:
+
+Siinus: sin()
+Naturaallogaritm: log()
+Kümnenlogaritm: log10()
+
+
+<!--The ^ operator raises the number to its left to the power of the number to its right: for example 3^2 is 9.
+The modulo returns the remainder of the division of the number to the left by the number on its right, for example 5 modulo 3 or 5 %% 3 is 2.
+With this knowledge, follow the instructions below to complete the exercise.-->
 
 *** =instructions
 
