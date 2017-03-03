@@ -113,7 +113,7 @@ Ka kalkulaatorit kasutades tekib peatselt vajadus meeles pidada arvutuste tulemu
 
 *** =sample_code
 ```{r}
-# Näide 1. Omistame muutjale y väärtuse 2 ja väljstame väärtuse
+# Näide 1. Omistame muutjale y väärtuse 2 ja väljastame väärtuse
 y <- 2
 y
 
