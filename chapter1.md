@@ -100,9 +100,9 @@ Ka kalkulaatorit kasutades tekib peatselt vajadus meeles pidada arvutuste tulemu
 - Proovi läbi näitekood.
 - Ülesanne: omista muutujale `z` summa, mille liidetavad on `y` ja 5. Väljasta `z` väärtus ekraanile.
 - Ülesanne vastuse kontrolli paika saamiseks. Sisesta käsud
-    * vec <- 0:9
-    * m <- sum(vec)/length(vec)
-    * m
+    * `vec <- 0:9`
+    * `m <- sum(vec)/length(vec)`
+    * `m`
 
 *** =hint
 
