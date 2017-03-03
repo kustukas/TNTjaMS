@@ -5,7 +5,7 @@ description : Siin saab tutvuda tarkvaraga R ja teha esimesi samme programmeerim
 
 
 --- type:NormalExercise lang:r xp:100 skills:1 key:ca824b1118
-## <<<Minu esimene Hello Word!>>>
+## Minu esimene Hello Word!
 
 Siia üldisemad juhised, mida tuleb teha.
 
