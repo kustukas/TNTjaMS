@@ -9,18 +9,18 @@ description : Siin saab tutvuda tarkvaraga R ja teha esimesi samme programmeerim
 
 R-i võib kasutada kui kalkulaatorit. Toome ära mõned tehtemärgid:
 
-Liitmine: +
-Lahutamine: -
-Korrutamine: *
-Jagamine: /
-Astendamine: ^ või **
-Jääk jagamisel: %%
+- Liitmine: `+`
+- Lahutamine: `-`
+- Korrutamine: `*`
+- Jagamine: `/`
+- Astendamine: `^` või `**`
+- Jääk jagamisel: `%%`
 
 ja paar funktsiooni:
 
-Siinus: sin()
-Naturaallogaritm: log()
-Kümnenlogaritm: log10()
+- Siinus: `sin()`
+- Naturaallogaritm: `log()`
+- Kümnenlogaritm: `log10()`
 
 
 <!--The ^ operator raises the number to its left to the power of the number to its right: for example 3^2 is 9.
