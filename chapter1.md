@@ -76,12 +76,14 @@ sin(2*pi)
 7 * (8 + 9) - 10 / 5
 
 #Ülesanne
-5^2 + 27 / (4 + 5)
+mean(3:10)
 
 ```
 
 *** =sct
 ```{r}
 ex() %>%
-success_msg("Tubli! Suundu järgmise ülesande juurde.")
+  check_function("mean", not_called_msg = "Make sure to call `mean()`") %>%
+  check_arg("x", arg_not_specified_msg = "Have you specified the argument `x`"?) %>%
+  check_equal(incorrect_msg = "Have you correctly specified the argument `x`?")
 ```
