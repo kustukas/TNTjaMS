@@ -27,7 +27,7 @@ ja paar funktsiooni:
 The modulo returns the remainder of the division of the number to the left by the number on its right, for example 5 modulo 3 or 5 %% 3 is 2.
 With this knowledge, follow the instructions below to complete the exercise.-->
 
-*** =instructions
+*** =Juhised
 
 - Tee läbi Näited 1 kuni 4, ühe rea täitmiseks R script-is vajuta `Ctrl + Enter`.
 - Pane tähele, et sümbol  `#` on kasutatud kommentaaride ridade eristamiseks.
@@ -85,3 +85,6 @@ sin(2*pi)
 test_output_contains("5^2 + 27 / (4 + 5)", incorrect_msg = "Viga1")
 success_msg("Tubli! Suundu järgmise ülesande juurde.")
 ```
+
+<--! Järmine harjutus-->
+
