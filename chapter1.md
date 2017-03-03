@@ -82,6 +82,6 @@ sin(2*pi)
 
 *** =sct
 ```{r}
-test_output_contains("5^2 + 27 / (4 + 5)", incorrect_msg = "Avaldises on viga. Veendu, et sisestasid nimetaja kujul `(4 + 5)`.")
+test_student_typed("5^2 + 27 / (4 + 5)", fixed=FALSE, not_typed_msg = "Avaldises on viga. Veendu, et sisestasid nimetaja kujul `(4 + 5)`.")
 success_msg("Tubli! Suundu järgmise ülesande juurde.")
 ```
