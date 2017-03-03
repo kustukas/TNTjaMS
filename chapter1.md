@@ -137,9 +137,8 @@ z
 *** =sct
 ```{r}
 test_error()
-
-test_object("z", incorrect_msg = "muutujat z väärtus pole õige. ")
-
+test_function_result("<-", "Kas kasutasid omistamise operaatorit `<-`?)
+test_object("z", incorrect_msg = "muutuja z väärtus pole õige. Proovi uuesti")
 
 success_msg("Perfect! Now you should have a good feel about the data and the idea behind life tables.")
 
