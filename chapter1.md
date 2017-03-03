@@ -82,7 +82,7 @@ sin(2*pi)
 
 *** =sct
 ```{r}
-test_output_contains("5^2 + 27 / (4 + 5)", incorrect_msg = "Viga1")
-test_output_contains("5^2 + 27 / (4 + 5)%%28", incorrect_msg = "Viga2")
+test_function("^", incorrect_msg = "Viga 3")
+
 success_msg("Tubli! Suundu järgmise ülesande juurde.")
 ```
