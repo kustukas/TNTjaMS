@@ -117,6 +117,13 @@ y
 y + 5
 
 # Ülesanne
+z <- y + 5
+z
+
+# Näide DataCampist ülesande kontrolli tegemiseks
+vec <- 0:9
+m <- sum(vec)/length(vec)
+m
 
 ```
 
@@ -132,6 +139,11 @@ y + 5
 # Ülesanne
 z <- y + 5
 z
+
+# Näide DataCampist ülesande kontrolli tegemiseks
+vec <- 0:9
+m <- sum(vec)/length(vec)
+m
 ```
 
 *** =sct
@@ -145,7 +157,6 @@ test_correct({
 test_output_contains("z")
 test_error()
 success_msg("Great job!")
-
 ```
 
 
