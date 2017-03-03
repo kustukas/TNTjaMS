@@ -29,7 +29,8 @@ With this knowledge, follow the instructions below to complete the exercise.-->
 
 *** =instructions
 
-Juhised: pead tegema nii ja naa..
+- Tee läbi näited 1 kuni 4, ühe rea täitmiseks R script-is vajuta `Ctrl + Enter`.
+- Kirjuta Näites 5 tehe, mis leiaks $$5^2 + \frac{3}{(4+5)}$$.
 
 *** =hint
 
