@@ -99,10 +99,7 @@ Ka kalkulaatorit kasutades tekib peatselt vajadus meeles pidada arvutuste tulemu
 
 - Proovi läbi näitekood.
 - Ülesanne: omista muutujale `z` summa, mille liidetavad on `y` ja 5. Väljasta `z` väärtus ekraanile.
-- Ülesanne vastuse kontrolli paika saamiseks. Sisesta käsud
-    * `vec <- 0:9`
-    * `m <- sum(vec)/length(vec)`
-    * `m`
+
 
 *** =hint
 
@@ -121,10 +118,6 @@ y
 y + 5
 
 # Ülesanne
-z <- y + 5
-z
-
-# Näide DataCampist ülesande kontrolli tegemiseks
 
 
 ```
@@ -142,21 +135,11 @@ y + 5
 z <- y + 5
 z
 
-# Näide DataCampist ülesande kontrolli tegemiseks
-vec <- 0:9
-m <- sum(vec)/length(vec)
-# prindi
-m
 ```
 
 *** =sct
 ```{r}
-test_correct({
-  test_object("z")
-}, {
-  test_function("+")
-})
-
+test_object(c("y", "z"))
 test_output_contains("z")
 test_error()
 success_msg("Great job!")
@@ -176,43 +159,45 @@ success_msg("Great job!")
 
  In this exercise, you'll be calculating a mean.
 
-    *** =instructions
-    - Create a variable `m`, equal to the mean of the numbers 0 up to 9.
-    - Print out `m`.
+*** =instructions
+- Create a variable `m`, equal to the mean of the numbers 0 up to 9.
+- Print out `m`.
 
-    *** =hint
-    - You can use `mean(0:9)` to calculate `m`.
-    - To print out a variable, simply write the variable name on a new line.
+*** =hint
+- You can use `mean(0:9)` to calculate `m`.
+- To print out a variable, simply write the variable name on a new line.
 
-    *** =pre_exercise_code
-    ```{r}
-    # no pre exercise code required
-    ```
+*** =pre_exercise_code
+```{r}
+# no pre exercise code required
+```
 
-    *** =sample_code
-    ```{r}
-    # Calculate the mean of all single digit numbers and assign the result to 'm'
+*** =sample_code
+```{r}
+# Calculate the mean of all single digit numbers and assign the result to 'm'
 
 
-    # print the result to the console
 
-    ```
+```
 
-    *** =solution
-    ```{r}
-    # Calculate the mean of all single digit numbers and assign the result to 'm'
-    m <- mean(0:9)
+*** =solution
+```{r}
+# Calculate the mean of all single digit numbers and assign the result to 'm'
+m <- mean(0:9)
+m
+```
 
-    # print the result to the console
-    m
-    ```
+*** =sct
+```{r}
+test_correct({
+  test_object("m")
+}, {
+  test_function("mean", args = "x")
+})
 
-    *** =sct
-    ```{r}
-    test_function("mean", args = "x")
-    test_object("m")
-    test_output_contains("m")
-    test_error()
-    success_msg("Great job!")
-    ```
+test_output_contains("m")
+test_error()
+success_msg("Great job!")
+
+```
     
