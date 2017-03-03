@@ -122,7 +122,7 @@ y + 5
 
 *** =solution
 ```{r}
-# Näide 1. Omistame muutjale y väärtuse 2 ja väljstame väärtuse
+# Näide 1. Omistame muutjale y väärtuse 2 ja väljastame väärtuse
 y <- 2
 y
 
@@ -138,7 +138,7 @@ z
 ```{r}
 test_error()
 
-test_object("z", incorrect_msg = "muutujat z väärus pole õige. ")
+test_object("z", incorrect_msg = "muutujat z väärtus pole õige. ")
 
 
 success_msg("Perfect! Now you should have a good feel about the data and the idea behind life tables.")
